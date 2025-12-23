@@ -1,0 +1,16 @@
+{
+  "name": "Football Player Detection",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev libglib2.0-0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
